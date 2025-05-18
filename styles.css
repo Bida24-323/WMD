@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* General Reset and Fonts */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffc107 !important;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  /* Cards */
+  .card {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+  }
+  
+  /* Forms */
+  .form-control, .btn {
+    margin-bottom: 10px;
+  }
+  
+  /* Page Headers */
+  h1, h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  /* Portfolio Grid */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+  
